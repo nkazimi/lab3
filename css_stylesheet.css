@@ -1,0 +1,176 @@
+/* this will padding and margin to entire page
+*{
+  margin-right: 10px;
+  margin:5;
+  padding:5;
+}
+*/
+body{
+  background-color#f4f4f4:
+  color:#555555;
+
+  font-family: Arial, helvetica, sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  font-weight:300;
+  font-variant: small-caps;
+  font-kerning: normal;
+  font-stretch: semi-condensed;
+  font-display: blue;
+  flow-into: none;
+
+  /* shortcut way to write */
+  font: normal 20px Arial, helvetica, sans-serif;
+
+  line-height:1.6em;
+  margin: 2;
+}
+h3{
+  color:green;
+}
+
+/* this class for the change the width of the text
+and put it in the middle of the page by using the margin
+using the % in order the size adjest while smalling the page */
+.container{
+  width:70%;
+  margin: auto;
+}
+
+
+/* the the class I made in the my web
+I change the the color of the text and the
+colr inside of the box to black in order
+to be readable.*/
+.box-1{
+  background-color: rgba(255, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
+
+  border-right:5px, blue solid;
+  border-left:5px, blue solid;
+  border-top:5px, blue solid;
+  border-bottom:5px, blue solid;
+
+  /* shortcut for all border = red */
+  border: 5px, blue solid;
+  border-width: 3px;
+  border-top-width: 10px;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+
+  /* padding  to all for side ot text*/
+  padding: 20px;
+
+  /* margin the top 10px and 0 for left and right */
+  margin-top: 10px 0;
+}
+
+/* targeting box-1 h1 in this class
+the text will show as italic and 400
+underline the word Seeing Seuss
+uppercase all the word using text transform
+space between each latter
+word spacing beween the each word */
+.box-1 h1{
+  font-family: tahoma;
+  font-weight:400;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+}
+
+
+/* box-2 Feeling Famous */
+.box-2{
+  border:3x dotted #ccc;
+  padding:20px;
+  margin:20px 0px;
+
+}
+
+/* this is globel and will affect all the
+the ui in this html file */
+a{
+  text-decoration: none;
+  color:red;
+}
+
+
+/*hover state change the URL to the
+color I display blue */
+a:hover{
+  color: rgb(0,0,255);
+}
+
+/* active state  when you get near
+to URl it will change the color to
+blue */
+a:active{
+  color:blue;
+}
+
+/* the color become black  if the person
+visit that webside */
+a:visited{
+  color:black;
+}
+
+/* style to my list box quarterly goals */
+.Goals{
+   border: 1px, #ccc solid;
+   padding: 10px;
+   border-radius: 15px;
+}
+
+/* bring the picture to center */
+.Goals h2{
+  text-align: center;
+}
+
+/* ul in text */
+
+.Goals  ul{
+  padding: 5px;
+  padding-left: 10px;
+  list-style: square;
+}
+
+/* changing the padding the list */
+.Goals li{
+  padding-bottom: 20px;
+  border-bottom: dotted 1px #ccc;
+}
+
+/* block to put the text horizontally. */
+.block{
+    float:left;
+    width: 20%;
+    border: 1px solid #ccc;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.boxbox{
+  display:flex;
+  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-1{
+  flex:1;
+  order:2;
+}
+
+.box-2{
+  flex:1;
+  order:3;
+}
+
+.box-3{
+  flex:1;
+  order:1;
+
+}
