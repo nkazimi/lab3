@@ -1,1 +1,34 @@
+# in CSS file
 
+I added a CSS file in order to make the webside better than lab 2
+
+I added a few classes in CSS file in order to modify only the places I wanted to design
+
+I added merge , padding, style 
+
+There are many ways to add margin, padding 
+
+The sortcut way ex margin: 20x  
+
+or margin base of each side 
+margin-left
+margin-right
+margin-top
+margin-bottom
+
+
+
+padding: 
+padding-left
+padding-right
+padding-top
+padding-bottom
+
+then I added a few flexbox
+flex:1;
+order:2;
+
+
+the classes for the style 
+
+container , box-1 , a:hover, a: active, a:visited
