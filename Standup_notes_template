@@ -32,3 +32,6 @@ order:2;
 the classes for the style 
 
 container , box-1 , a:hover, a: active, a:visited
+
+
+I added margin, border, padding to content of the box. 
